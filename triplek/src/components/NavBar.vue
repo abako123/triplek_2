@@ -35,11 +35,11 @@ import { ref, computed } from 'vue'
 export default {
   name: 'NavBar',
   setup() {
-    const menu = ref('home')
+    const menu = ref('profile')
     const menus = [
-      { key: 'home', value: '홈', URL: '#', position: 'left' },
-      { key: 'app', value: '애플리케이션', URL: '#', position: 'left' },
-      { key: 'me', value: 'Profile', URL: '#', position: 'right' },
+      { key: 'home', value: '홈', url: '#', position: 'left' },
+      { key: 'app', value: '어플리케이션', url: '#', position: 'left' },
+      { key: 'profile', value: 'Profile', url: '#', position: 'right' },
     ]
 
     const left_menus = computed(() => menus.filter((i) => i.position == 'left'))

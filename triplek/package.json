@@ -7,9 +7,11 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@bundled-es-modules/axios": "^0.21.1",
     "@popperjs/core": "^2.10.1",
     "bootstrap": "^5.0.0-beta3",
-    "vue": "^3.2.16"
+    "vue": "^3.2.19",
+    "vuex": "^4.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^1.9.2",
